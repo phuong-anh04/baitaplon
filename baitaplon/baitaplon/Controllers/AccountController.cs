@@ -165,7 +165,7 @@ namespace baitaplon.Controllers
             System.Diagnostics.Debug.WriteLine("Password: " + model.Password);
             System.Diagnostics.Debug.WriteLine("ConfirmPassword: " + model.ConfirmPassword);
 
-            // Kiểm tra tính hợp lệ của dữ liệu
+            // Kiểm tra tính hợp lệ của dữ liệu dfsdfsdf sdf 
             if (ModelState.IsValid)
             {
                 // Mã hóa mật khẩu bằng BCrypt

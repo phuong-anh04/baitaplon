@@ -1,0 +1,71 @@
+﻿@model baitaplon.Models.Product
+
+<!-- Thêm tiêu đề cho trang -->
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="product-detail-container">
+    @if (Model != null)
+    {
+        <h1 class="product-title">@Model.Name</h1>
+        <div class="product-image-container">
+            <img src="/Uploads/products/@Model.Image" alt="@Model.Name" class="product-image" />
+        </div>
+        <div class="product-info">
+            <p><strong>Price:</strong> @Model.Price VND</p>
+            <p><strong>Quantity:</strong> @Model.Quantity</p>
+            <p><strong>Description:</strong> @Model.Description</p>
+        </div>
+    }
+    else
+    {
+        <p>Product not found or data is null.</p>
+    }
+</div>
+<style>
+    .product-detail-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        font-family: 'Cairo', sans-serif;
+    }
+
+    .product-title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .product-image-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .product-image {
+        max-width: 80%;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-info {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+        .product-info p {
+            margin-bottom: 10px;
+        }
+
+        .product-info strong {
+            font-weight: 600;
+            color: #333;
+        }
+
+</style>

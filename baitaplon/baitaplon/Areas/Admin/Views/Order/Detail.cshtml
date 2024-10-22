@@ -1,0 +1,159 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var STT = 1;
+}
+@model baitaplon.Models.Order
+<!-- Main -->
+<div class="app-main__inner">
+
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div class="page-title-icon">
+                    <i class="fa-brands fa-product-hunt"></i>
+                </div>
+                <div>
+                    Account Details
+                    <div class="page-title-subheading">
+                        View, create, update, delete and manage.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-card mb-3 card">
+                <div class="card-body display_data">
+
+                    
+                    <div class="position-relative row form-group">
+                        <label for="brand_id"
+                               class="col-md-3 text-md-right col-form-label">Id</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Id</p>
+                        </div>
+                    </div>
+
+
+                    <div class="position-relative row form-group">
+                        <label for="name" class="col-md-3 text-md-right col-form-label">Orderid</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Orderid</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="content"
+                               class="col-md-3 text-md-right col-form-label">Status</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p class="">@(Model.Status == "1" ? "Done" : "Pending") </p>
+                            
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="position-relative row form-group">
+                        <label for="qty"
+                               class="col-md-3 text-md-right col-form-label">PaymentType</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p class="">@(Model.PaymentType == "1" ? "Tiền mặt" : "Thẻ/Tài khoản") </p>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="align-middle mb-0 table table-borderless table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">STT</th>
+                                    @* <th>Image</th> *@
+                                    <th>Name</th>                                  
+                                    <th>Price</th>
+                                    <th>Quantity</th>                  
+                                    <th>Total</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var c in ViewBag.ord)
+                                {
+                                    <tr>
+                                        <td class="text-center text-muted">@STT</td>
+                                        @* <td>
+                                            <div class="widget-content p-0">
+                                                <div class="widget-content-wrapper">
+                                                    <div class="widget-content-left flex2">
+                                                        <img src="@(Url.Content("~/Uploads/products/@item.Product.Image" + c.Image))" alt="Product Image" style="max-width: 100px; max-height: 100px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td> *@
+                                        <td>
+                                            <div class="widget-content p-0">
+                                                <div class="widget-content-wrapper">
+                                                    <div class="widget-content-left flex2">
+                                                        <div class="widget-heading">@c.Name</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="widget-content p-0">
+                                                <div class="widget-content-wrapper">
+                                                    <div class="widget-content-left flex2">
+                                                        <div class="widget-heading">@c.Price</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="widget-content p-0">
+                                                <div class="widget-content-wrapper">
+                                                    <div class="widget-content-left flex2">
+                                                        <div class="widget-heading">@c.Quantity</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                        <td>
+                                            <div class="widget-content p-0">
+                                                <div class="widget-content-wrapper">
+                                                    <div class="widget-content-left flex2">
+                                                        <div class="widget-heading">@(c.Quantity* Convert.ToInt32(c.Price))</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        
+                                    </tr>
+                                    STT++;
+                                }
+
+
+                            </tbody>
+                        </table>
+                       @*  <nav aria-label="Page navigation">
+                            <ul class="pagination" style="padding: 10px 20px;">
+                                @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }),
+                                         new PagedListRenderOptions
+                                {
+                                    LiElementClasses = new[] { "page-item" },
+                                    PageClasses = new[] { "page-link" },
+                                    UlElementClasses = new[] { "pagination" }
+                                })
+                            </ul>
+                        </nav> *@
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->

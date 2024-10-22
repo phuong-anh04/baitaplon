@@ -1,0 +1,1089 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\phuon\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\noty.js",
+      "PackagePath": "staticwebassets\\noty.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\.nuget\\packages\\ntoastnotify\\8.0.0\\contentFiles\\any\\net6.0\\wwwroot\\toastr.js",
+      "PackagePath": "staticwebassets\\toastr.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\baitaplon.bundle.scp.css",
+      "PackagePath": "staticwebassets\\baitaplon.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\Source\\OwlCarousel2-2.3.4.zip",
+      "PackagePath": "staticwebassets\\Ogani\\Source\\OwlCarousel2-2.3.4.zip"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\Source\\SlickNav-master.zip",
+      "PackagePath": "staticwebassets\\Ogani\\Source\\SlickNav-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\Source\\bootstrap-4.4.1-dist.zip",
+      "PackagePath": "staticwebassets\\Ogani\\Source\\bootstrap-4.4.1-dist.zip"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\Source\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\Ogani\\Source\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\Source\\jquery-nice-select-1.1.0.zip",
+      "PackagePath": "staticwebassets\\Ogani\\Source\\jquery-nice-select-1.1.0.zip"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\Source\\jquery-ui-1.12.1.zip",
+      "PackagePath": "staticwebassets\\Ogani\\Source\\jquery-ui-1.12.1.zip"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\Source\\sass.zip",
+      "PackagePath": "staticwebassets\\Ogani\\Source\\sass.zip"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Ogani\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\Ogani\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Ogani\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Ogani\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\Ogani\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Ogani\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\Ogani\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\css\\style.css",
+      "PackagePath": "staticwebassets\\Ogani\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Ogani\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\details\\details-author.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\details\\details-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\details\\details-hero.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\details\\details-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\details\\details-pic.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\details\\details-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\sidebar\\sr-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\sidebar\\sr-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\sidebar\\sr-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\sidebar\\sr-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\blog\\sidebar\\sr-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\blog\\sidebar\\sr-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\breadcrumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\cart\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\cart\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\cart\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\cart\\product-9.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\cart\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\categories\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\categories\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\categories\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\categories\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\categories\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\categories\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\categories\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\categories\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\categories\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\categories\\cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\featured\\feature-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\featured\\feature-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\featured\\feature-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\featured\\feature-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\featured\\feature-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\featured\\feature-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\featured\\feature-4.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\featured\\feature-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\featured\\feature-5.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\featured\\feature-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\featured\\feature-6.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\featured\\feature-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\featured\\feature-7.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\featured\\feature-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\featured\\feature-8.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\featured\\feature-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\hero\\banner.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\hero\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\language.png",
+      "PackagePath": "staticwebassets\\Ogani\\img\\language.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\latest-product\\lp-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\latest-product\\lp-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\latest-product\\lp-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\latest-product\\lp-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\latest-product\\lp-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\latest-product\\lp-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Ogani\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\payment-item.png",
+      "PackagePath": "staticwebassets\\Ogani\\img\\payment-item.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\product-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\product-details-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\product-details-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\details\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\details\\thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\discount\\pd-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\discount\\pd-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\discount\\pd-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\discount\\pd-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\discount\\pd-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\discount\\pd-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\discount\\pd-4.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\discount\\pd-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\discount\\pd-5.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\discount\\pd-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\discount\\pd-6.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\discount\\pd-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\Ogani\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Ogani\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\Ogani\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Ogani\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\Ogani\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\Ogani\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\js\\main.js",
+      "PackagePath": "staticwebassets\\Ogani\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\Ogani\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Ogani\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_base.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_blog-details.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_blog-sidebar.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_blog-sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_checkout.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_checkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_header.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_hero.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_home-page.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_home-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_responsive.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_shop-details.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_shop-details.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_shop-grid.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_shop-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_shoping-cart.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_shoping-cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\_variable.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\_variable.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Ogani\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\Ogani\\sass\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\accounts\\1.webp",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\1.webp"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\accounts\\2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\accounts\\chuoi.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\chuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\accounts\\daidien.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\daidien.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\accounts\\dangnhap.png",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\dangnhap.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\accounts\\heheeee.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\accounts\\heheeee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\Screenshot 2024-04-06 101224.png",
+      "PackagePath": "staticwebassets\\Uploads\\products\\Screenshot 2024-04-06 101224.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\apple.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\apple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\bandicam 2022-07-19 13-17-28-790.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\bandicam 2022-07-19 13-17-28-790.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\bandicam 2022-07-19 13-21-01-199.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\bandicam 2022-07-19 13-21-01-199.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\banhtrangcuon.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\banhtrangcuon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\cam.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\cam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\chuoi.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\chuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\hoaqua.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\hoaqua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\images.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\khoaitaychien2.png",
+      "PackagePath": "staticwebassets\\Uploads\\products\\khoaitaychien2.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\nuocepnho.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\nuocepnho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\product-10.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\product-5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\product-6.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\product-7.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\product-8.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\product-9.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\Uploads\\products\\thom.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\products\\thom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\css\\my_style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\my_style.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\AR.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AR.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\AS.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\AS.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\BB.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\BB.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\BD.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\BD.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\BE.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\BE.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\BF.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\BF.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\BG.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\BG.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\BH.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\BH.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\CH.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\CH.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\DE.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\DE.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\ES.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ES.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\FR.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FR.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\IT.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IT.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\Pe-icon-7-stroke.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Pe-icon-7-stroke.woff"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\US.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\US.svg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\_default-product.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\_default-product.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\_default-user.png",
+      "PackagePath": "staticwebassets\\assets\\images\\_default-user.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\add-image-icon.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\add-image-icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\avatars\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\abstract1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\abstract1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\abstract2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\abstract2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\abstract3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\abstract3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\abstract4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\abstract4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\abstract5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\abstract5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\city1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\city1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\city2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\city2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\city3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\city3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\city4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\city4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\dropdown-header\\city5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\dropdown-header\\city5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\icons.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\icons.gif"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\logo-inverse.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-inverse.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\abstract1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\abstract1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\abstract2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\abstract2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\abstract3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\abstract3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\abstract4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\abstract4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\abstract5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\abstract5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\city1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\city1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\city2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\city2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\city3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\city3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\city4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\city4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\images\\sidebar\\city5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sidebar\\city5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\scripts\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\scripts\\main.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\assets\\scripts\\my_script.js",
+      "PackagePath": "staticwebassets\\assets\\scripts\\my_script.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.baitaplon.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.baitaplon.props",
+      "PackagePath": "build\\baitaplon.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.baitaplon.props",
+      "PackagePath": "buildMultiTargeting\\baitaplon.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.baitaplon.props",
+      "PackagePath": "buildTransitive\\baitaplon.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

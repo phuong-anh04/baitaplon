@@ -1,0 +1,188 @@
+﻿@model X.PagedList.IPagedList<baitaplon.Models.Account>
+@using X.PagedList.Mvc.Core;
+@{
+    var STT = 1;
+    var names = ViewBag.names;
+    var sorts = ViewBag.sorts;
+}
+<!-- Main -->
+<div class="app-main__inner">
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div class="page-title-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div>
+                    Account
+                </div>
+            </div>
+
+            <div class="page-title-actions">
+                <a asp-area="Admin" asp-action="Add" asp-controller="Account" class="btn-shadow btn-hover-shine mr-3 btn btn-primary">
+                    <span class="btn-icon-wrapper pr-2 opacity-7">
+                        <i class="fa fa-plus fa-w-20"></i>
+                    </span>
+                    Create
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-card mb-3 card">
+
+                <div class="card-header d-flex justify-content-between">
+
+                    <form asp-action="Index">
+                        <div class="input-group">
+                            <input type="search" value="@names" name="name" id="search"
+                                   placeholder="Search everything" class="form-control">
+                            <span class="input-group-append">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa fa-search"></i>&nbsp;
+                                    Search
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+                    <a class="btn btn-primary" asp-area="Admin" asp-controller="Account" asp-action="Index">Reset</a>
+
+                </div>
+
+                <div class="table-responsive">
+                    <table class="align-middle mb-0 table table-borderless table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-center">STT</th>
+                                <th>UserName</th>
+                                @* <th>FullName</th> *@
+                                @* <th class="text-center">Gender</th> *@
+                                <th>Image</th>
+                                @* <th>Address</th> *@
+                                <th>Email</th>
+                                
+                                @* <th>Phone</th> *@
+                                <th class="text-center">Role</th>
+                                <th class="text-center">Active</th>
+                                <th class="text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach (var c in Model)
+                            {
+                                <tr>
+                                    <td class="text-center text-muted">@STT</td>
+                                    <td>
+                                        <div class="widget-content p-0">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left flex2">
+                                                    <div class="widget-heading">@c.UserName</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    @* <td>
+                                        <div class="widget-content p-0">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left flex2">
+                                                    <div class="widget-heading">@c.FullName</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td> *@
+                                    @* <td class="text-center text-muted">@(c.Gender == 1 ? "Nam" : "Nữ") </td> *@
+                                    <td>
+                                        <div class="widget-content p-0">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left flex2">
+                                                    <!-- Thay đổi từ việc hiển thị tên ảnh sang hiển thị ảnh thực tế -->
+                                                    <div class="widget-heading">
+                                                        <img src="@(Url.Content("~/Uploads/accounts/" + c.Image))" alt="Account Image" style="max-width: 100px; max-height: 100px;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    @* <td>
+                                        <div class="widget-content p-0">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left flex2">
+                                                    <div class="widget-heading">@c.Address</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td> *@
+                                    <td>
+                                        <div class="widget-content p-0">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left flex2">
+                                                    <div class="widget-heading">@c.Email</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    
+                                    @* <td>
+                                        <div class="widget-content p-0">
+                                            <div class="widget-content-wrapper">
+                                                <div class="widget-content-left flex2">
+                                                    <div class="widget-heading">@c.Phone</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td> *@
+                                    <td class="text-center text-muted">@(c.Role == 1 ? "Admin" : "User") </td>
+                                    <td class="text-center text-muted">@(c.Active == 1 ? "Work" : "Lock") </td>
+                                    <td class="text-center">
+                                        <a asp-area="Admin" asp-action="Detail" asp-controller="Account" asp-route-id="@c.Id"
+                                           class="btn btn-hover-shine btn-outline-primary border-0 btn-sm">
+                                            Details
+                                        </a>
+                                        <a asp-area="Admin" asp-action="Edit" asp-controller="Account" asp-route-id="@c.Id" data-toggle="tooltip" title="Edit"
+                                           data-placement="bottom" class="btn btn-outline-warning border-0 btn-sm">
+                                            <span class="btn-icon-wrapper opacity-8">
+                                                <i class="fa fa-edit fa-w-20"></i>
+                                            </span>
+                                        </a>
+                                        <form class="d-inline" asp-area="Admin" asp-action="Delete" asp-controller="Account" asp-route-id="@c.Id" method="post">
+                                            <button class="btn btn-hover-shine btn-outline-danger border-0 btn-sm"
+                                                    type="submit" data-toggle="tooltip" title="Delete"
+                                                    data-placement="bottom"
+                                                    onclick="return confirm('Do you really want to delete this item?');">
+                                                <span class="btn-icon-wrapper opacity-8">
+                                                    <i class="fa fa-trash fa-w-20"></i>
+                                                </span>
+                                            </button>
+                                        </form>
+
+                                    </td>
+                                </tr>
+                                STT++;
+                            }
+
+
+                        </tbody>
+                    </table>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination" style="padding: 10px 20px;">
+                            @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }),
+                                     new PagedListRenderOptions
+                            {
+                                LiElementClasses = new[] { "page-item" },
+                                PageClasses = new[] { "page-link" },
+                                UlElementClasses = new[] { "pagination" }
+                            })
+                        </ul>
+                    </nav>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->

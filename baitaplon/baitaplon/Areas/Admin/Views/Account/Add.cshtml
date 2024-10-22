@@ -1,0 +1,136 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!-- Main -->
+<div class="app-main__inner">
+
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div class="page-title-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div>
+                    Add Account
+                    <div class="page-title-subheading">
+                        View, create, update, delete and manage.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-card mb-3 card">
+                <div class="card-body">
+                    <form asp-action="Add" method="post" enctype="multipart/form-data">
+                        <div class="position-relative row form-group">
+                            <label for="username" class="col-md-3 text-md-right col-form-label">UserName</label>
+                            <div class="col-md-9 col-xl-8">
+                                <input required name="username" id="username" placeholder="UserName" type="text"
+                                       class="form-control" value="">
+                            </div>
+                        </div>
+                        <div class="position-relative row form-group">
+                            <label for="fullname" class="col-md-3 text-md-right col-form-label">FullName</label>
+                            <div class="col-md-9 col-xl-8">
+                                <input required name="fullname" id="fullname" placeholder="FullName" type="text"
+                                       class="form-control" value="">
+                            </div>
+                        </div>
+                        <div class="position-relative row form-group">
+                            <label for="gender" class="col-md-3 text-md-right col-form-label">Gender</label>
+                            <div class="col-md-9 col-xl-8">
+                                <select required name="gender" id="gender" class="form-control">
+                                    <option value="1">Nam</option>
+                                    <option value="0">Nữ</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="position-relative row form-group">
+                            <label for="image" class="col-md-3 text-md-right col-form-label">Image</label>
+                            <div class="col-md-9 col-xl-8">
+                                <input required name="fileUpload" id="image" placeholder="Upload Image" type="file"
+                                       class="form-control">
+                            </div>
+                        </div>
+                        <div class="position-relative row form-group">
+                            <label for="address" class="col-md-3 text-md-right col-form-label">Address</label>
+                            <div class="col-md-9 col-xl-8">
+                                <input required name="address" id="address" placeholder="Address" type="text"
+                                       class="form-control" value="">
+                            </div>
+                        </div>
+                        <div class="position-relative row form-group">
+                            <label for="email" class="col-md-3 text-md-right col-form-label">Email</label>
+                            <div class="col-md-9 col-xl-8">
+                                <input required name="email" id="email" placeholder="Email" type="email"
+                                       class="form-control" value="">
+                            </div>
+                        </div>
+                        <div class="position-relative row form-group">
+                            <label for="password" class="col-md-3 text-md-right col-form-label">Password</label>
+                            <div class="col-md-9 col-xl-8">
+                                <input required name="password" id="password" placeholder="Password" type="password"
+                                       class="form-control" value="">
+                            </div>
+                        </div>
+                        <div class="position-relative row form-group">
+                            <label for="phone" class="col-md-3 text-md-right col-form-label">Phone</label>
+                            <div class="col-md-9 col-xl-8">
+                                <input required name="phone" id="phone" placeholder="Phone" type="tel"
+                                       class="form-control" value="">
+                            </div>
+                        </div>
+                        <!-- Role -->
+                        <div class="position-relative row form-group">
+                            <label for="role" class="col-md-3 text-md-right col-form-label">Role</label>
+                            <div class="col-md-9 col-xl-8">
+                                <select required name="role" id="role" class="form-control">
+                                    <option value="1">Admin</option>
+                                    <option value="0">User</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Active -->
+                        <div class="position-relative row form-group">
+                            <label for="active" class="col-md-3 text-md-right col-form-label">Active</label>
+                            <div class="col-md-9 col-xl-8">
+                                <select required name="active" id="active" class="form-control">
+                                    <option value="1">Work</option>
+                                    <option value="0">Lock</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="position-relative row form-group mb-1">
+                            <div class="col-md-9 col-xl-8 offset-md-2">
+                                <a asp-action="Index" class="border-0 btn btn-outline-danger mr-1">
+                                    <span class="btn-icon-wrapper pr-1 opacity-8">
+                                        <i class="fa fa-times fa-w-20"></i>
+                                    </span>
+                                    <span>Cancel</span>
+                                </a>
+
+                                <button type="submit"
+                                        class="btn-shadow btn-hover-shine btn btn-primary">
+                                    <span class="btn-icon-wrapper pr-2 opacity-8">
+                                        <i class="fa fa-download fa-w-20"></i>
+                                    </span>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->

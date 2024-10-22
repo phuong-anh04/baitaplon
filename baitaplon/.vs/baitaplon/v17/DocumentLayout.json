@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\controllers\\checkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\controllers\\checkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|c:\\users\\phuon\\onedrive\\desktop\\baitaplon\\baitaplon\\baitaplon\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651AF3E6-06A2-4613-B58D-787D86B9BAAF}|baitaplon\\baitaplon.csproj|solutionrelative:baitaplon\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "baitaplon\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "baitaplon\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:22:12.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Controllers\\CheckController.cs",
+              "RelativeDocumentMoniker": "baitaplon\\Controllers\\CheckController.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Controllers\\CheckController.cs",
+              "RelativeToolTip": "baitaplon\\Controllers\\CheckController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T12:21:37.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "baitaplon\\Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "baitaplon\\Views\\Contact\\Index.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAEIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:20:15.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Views\\Home\\Detail.cshtml",
+              "RelativeDocumentMoniker": "baitaplon\\Views\\Home\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Views\\Home\\Detail.cshtml",
+              "RelativeToolTip": "baitaplon\\Views\\Home\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T10:43:46.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "baitaplon\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "baitaplon\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAuwF4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T10:38:22.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "baitaplon\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Controllers\\CartController.cs",
+              "RelativeToolTip": "baitaplon\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:46:13.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "baitaplon\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "baitaplon\\Areas\\Admin\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAwwGIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:00:25.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "baitaplon\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "baitaplon\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T00:59:13.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "baitaplon\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "baitaplon\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T00:58:05.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "baitaplon\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\phuon\\OneDrive\\Desktop\\baitaplon\\baitaplon\\baitaplon\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "baitaplon\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T00:17:24.425Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

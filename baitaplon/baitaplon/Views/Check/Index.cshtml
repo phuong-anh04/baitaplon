@@ -1,0 +1,134 @@
+﻿@{
+    ViewData["Title"] = "Check Page";
+    Layout = "~/Views/Shared/_LayoutOgani.cshtml";
+}
+@model baitaplon.Models.CheckoutViewModel
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-section set-bg" data-setbg="@Url.Content("~/Ogani/img/breadcrumb.jpg")">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Checkout</h2>
+                    <div class="breadcrumb__option">
+                        <a href="./index.html">Home</a>
+                        <span>Checkout</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Checkout Section Begin -->
+<section class="checkout spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h6>
+                    <span class="icon_tag_alt"></span> Have a coupon? <a href="#">Click here</a> to enter your code
+                </h6>
+            </div>
+        </div>
+        <div class="checkout__form">
+            <h4>Billing Details</h4>
+            @using (Html.BeginForm("PlaceOrder", "Check", FormMethod.Post))
+            {
+                
+                <form action="/Check/PlaceOrder" method="post">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-6">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>First Name<span>*</span></p>
+                                        <input type="text" name="FirstName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Last Name<span>*</span></p>
+                                        <input type="text" name="LastName" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Country<span>*</span></p>
+                                <input type="text" name="Country" class="form-control">
+                            </div>
+                            <div class="checkout__input">
+                                <p>Address<span>*</span></p>
+                                <input type="text" name="Address" placeholder="Street Address" class="form-control checkout__input__add">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Phone<span>*</span></p>
+                                        <input type="text" name="Phone" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="checkout__input">
+                                        <p>Email<span>*</span></p>
+                                        <input type="text" name="Email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="checkout__input__checkbox">
+                                <label for="diff-acc">
+                                    Ship to a different address?
+                                    <input type="checkbox" id="diff-acc" name="ShipToDifferentAddress">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="checkout__input">
+                                <p>Order notes<span>*</span></p>
+                                <input type="text" name="OrderNotes" placeholder="Notes about your order, e.g. special notes for delivery." class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="checkout__order">
+                                <h4>Your Order</h4>
+                                <div class="checkout__order__products">
+                                    <ul>
+                                        <li>Products <span>Total</span></li>
+                                        @foreach (var item in ViewBag.CartItems)
+                                        {
+                                            <li>@item.ProductName <span>@item.TotalPrice.ToString("C")</span></li>
+                                        }
+                                    </ul>
+                                </div>
+                                <div class="checkout__order__subtotal">
+                                    Subtotal <span>@ViewBag.TotalAmount.ToString("C")</span>
+                                </div>
+                                <div class="checkout__order__total">
+                                    Total <span>@ViewBag.TotalAmount.ToString("C")</span>
+                                </div>
+
+                                <div class="checkout__input__checkbox">
+                                    <label for="payment">
+                                        Payment upon receipt
+                                        <input type="checkbox" id="payment" name="PaymentUponReceipt">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="checkout__input__checkbox">
+                                    <label for="paypal">
+                                        Credit Card/Debit Card
+                                        <input type="checkbox" id="paypal" name="CreditCard">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <button type="submit" class="site-btn">PLACE ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            }
+        </div>
+    </div>
+</section>
+<!-- Checkout Section End -->

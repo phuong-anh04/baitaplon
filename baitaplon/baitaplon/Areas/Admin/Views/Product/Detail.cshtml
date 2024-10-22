@@ -1,0 +1,109 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model baitaplon.Models.Product
+<!-- Main -->
+<div class="app-main__inner">
+
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div class="page-title-icon">
+                    <i class="fa-brands fa-product-hunt"></i>
+                </div>
+                <div>
+                    Product Details
+                    <div class="page-title-subheading">
+                        View, create, update, delete and manage.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-card mb-3 card">
+                <div class="card-body display_data">
+
+                    <div class="position-relative row form-group">
+                        <label for="" class="col-md-3 text-md-right col-form-label">Images</label>
+                        <div class="col-md-9 col-xl-8">
+                            <ul class="text-nowrap overflow-auto" id="images">
+                                <li class="d-inline-block mr-1" style="position: relative;">
+                                    <img src="@(Url.Content("~/Uploads/products/" + Model.Image))" alt="Product Image" style="max-width: 100px; max-height: 100px;">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="brand_id"
+                               class="col-md-3 text-md-right col-form-label">Pid</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Pid</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="product_category_id" class="col-md-3 text-md-right col-form-label">Category</label>
+                        <div class="col-md-9 col-xl-8">
+                            @if (Model.CidNavigation != null)
+                            {
+                                <p>Category ID: @Model.CidNavigation.Cid</p>
+                                <p>Category Name: @Model.CidNavigation.Name</p>
+                            }
+                            else
+                            {
+                                <p>Category data is not available.</p>
+                            }
+                        </div>
+                    </div>
+
+
+                    <div class="position-relative row form-group">
+                        <label for="name" class="col-md-3 text-md-right col-form-label">Name</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Name</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="content"
+                               class="col-md-3 text-md-right col-form-label">Description</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Description</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="price"
+                               class="col-md-3 text-md-right col-form-label">Price</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Price</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="qty"
+                               class="col-md-3 text-md-right col-form-label">Quantity</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Quantity</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="discount"
+                               class="col-md-3 text-md-right col-form-label">Discount</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Discount</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->

@@ -1,0 +1,135 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model baitaplon.Models.Account
+<!-- Main -->
+<div class="app-main__inner">
+
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div class="page-title-icon">
+                    <i class="fa-brands fa-product-hunt"></i>
+                </div>
+                <div>
+                    Account Details
+                    <div class="page-title-subheading">
+                        View, create, update, delete and manage.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main-card mb-3 card">
+                <div class="card-body display_data">
+
+                    <div class="position-relative row form-group">
+                        <label for="" class="col-md-3 text-md-right col-form-label">Images</label>
+                        <div class="col-md-9 col-xl-8">
+                            <ul class="text-nowrap overflow-auto" id="images">
+                                <li class="d-inline-block mr-1" style="position: relative;">
+                                    <img src="@(Url.Content("~/Uploads/accounts/" + Model.Image))" alt="Account Image" style="max-width: 100px; max-height: 100px;">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="brand_id"
+                               class="col-md-3 text-md-right col-form-label">Id</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Id</p>
+                        </div>
+                    </div>
+
+
+                    <div class="position-relative row form-group">
+                        <label for="name" class="col-md-3 text-md-right col-form-label">UserName</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.UserName</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="content"
+                               class="col-md-3 text-md-right col-form-label">FullName</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.FullName</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="discount" class="col-md-3 text-md-right col-form-label">Gender</label>
+                        <div class="col-md-9 col-xl-8">
+                            @if (Model.Gender == 1)
+                            {
+                                <p>Nam</p>
+                            }
+                            else
+                            {
+                                <p>Nữ</p>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="qty"
+                               class="col-md-3 text-md-right col-form-label">Address</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Address</p>
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="discount"
+                               class="col-md-3 text-md-right col-form-label">Email</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Email</p>
+                        </div>
+                    </div>
+                    <div class="position-relative row form-group">
+                        <label for="discount"
+                               class="col-md-3 text-md-right col-form-label">Phone</label>
+                        <div class="col-md-9 col-xl-8">
+                            <p>@Model.Phone</p>
+                        </div>
+                    </div>
+                    <div class="position-relative row form-group">
+                        <label for="discount" class="col-md-3 text-md-right col-form-label">Role</label>
+                        <div class="col-md-9 col-xl-8">
+                            @if (Model.Role == 1)
+                            {
+                                <p>Admin</p>
+                            }
+                            else
+                            {
+                                <p>User</p>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="position-relative row form-group">
+                        <label for="discount" class="col-md-3 text-md-right col-form-label">Active</label>
+                        <div class="col-md-9 col-xl-8">
+                            @if (Model.Active == 1)
+                            {
+                                <p>Work</p>
+                            }
+                            else
+                            {
+                                <p>Lock</p>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main -->

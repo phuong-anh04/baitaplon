@@ -1,0 +1,318 @@
+﻿@model IEnumerable<baitaplon.Models.Product>
+@await Component.InvokeAsync("NToastNotify")
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_LayoutOgani.cshtml";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="successMessageId"  class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+<style>
+    .categories__item {
+        width: 230px;
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+
+        .categories__item img {
+            width: 100%; /* Ảnh sẽ bao phủ toàn bộ chiều rộng của ô */
+            height: 100%; /* Ảnh sẽ bao phủ toàn bộ chiều cao của ô */
+            object-fit: cover; /* Ảnh được cắt sao cho vừa khít ô mà không bị méo */
+        }
+
+    .latest-product__item__pic {
+        width: 120px; /* Đặt kích thước cố định cho khung chứa ảnh */
+        height: 120px; /* Đặt chiều cao cố định cho khung chứa ảnh */
+        overflow: hidden; /* Đảm bảo ảnh không tràn khỏi khung */
+    }
+
+    .featured__item__pic {
+        width: 90%; /* Điều chỉnh để nhỏ hơn khung chứa sản phẩm */
+        height: 220px; /* Chiều cao cố định của khung ảnh */
+        overflow: hidden; /* Ẩn phần dư của ảnh nếu có */
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center; /* Căn giữa ảnh theo chiều ngang */
+        align-items: center; /* Căn giữa ảnh theo chiều dọc */
+        margin: 0 auto; /* Căn giữa khung ảnh trong cột chứa */
+        padding: 10px; /* Thêm khoảng cách bên trong để tránh sát mép */
+    }
+
+    .product-image {
+        width: auto; /* Chiều rộng tự động để giữ tỷ lệ ảnh */
+        height: 100%; /* Đảm bảo ảnh chiếm đủ chiều cao khung */
+        object-fit: cover; /* Đảm bảo ảnh không bị méo, vừa khung */
+        display: block;
+        margin-left: auto; /* Căn giữa ảnh */
+        margin-right: auto; /* Căn giữa ảnh */
+    }
+
+    .featured__item {
+        margin: 15px; /* Thêm khoảng cách giữa các sản phẩm */
+        padding: 10px; /* Thêm khoảng cách giữa nội dung bên trong khung */
+        box-sizing: border-box; /* Đảm bảo padding không ảnh hưởng đến kích thước tổng thể */
+    }
+
+
+</style>
+
+<!-- Categories Section Begin -->
+  <section class="categories">
+        <div class="container">
+            <div class="row">
+            <div class="categories__slider owl-carousel">
+                @foreach (var product in ViewBag.Products)
+                {
+                    <div>
+                        <div class="categories__item set-bg" data-setbg="@($"/Uploads/products/{product.Image}")">
+                            <h5><a href="#">@product.Name</a></h5>
+                        </div>
+                    </div>
+                }
+            </div>
+
+                </div>
+            </div>
+        </div>
+    </section> 
+<!-- Categories Section End -->
+<!-- Featured Section Begin -->
+  <section class="featured spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Featured Product</h2>
+                    </div>
+                    <div class="featured__controls">
+                       <ul>
+                        <li class="active" data-filter="*">All</li>
+                        @foreach (var category in ViewBag.Categories)
+                        {
+                            <li data-filter=".@category.Name.ToLower().Replace(" ", "-")">@category.Name</li>
+                        }
+                       </ul>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        <div class="row featured__filter">
+            @foreach (var product in ViewBag.Products)
+            {
+                // Kiểm tra nếu CidNavigation không null
+                var categoryName = product.CidNavigation != null ? product.CidNavigation.Name.ToLower().Replace(" ", "-") : "no-category";
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mix @categoryName">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="@($"/Uploads/products/{product.Image}")">
+                            <ul class="featured__item__pic__hover">
+                                <li>
+                                    <a href="#" onclick="addToWishlist(@product.Pid)">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </li>
+                            <li><a asp-controller="Home" asp-action="Detail" asp-route-Pid="@product.Pid"><i class="fa fa-retweet"></i></a></li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="addToCart11(@product.Pid)" class="fa fa-shopping-cart"></a>
+                            </li>
+
+                            </ul>
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">@product.Name</a></h6>
+                            <h5>@String.Format("{0:C}", product.Price)</h5>
+                        </div>
+                    </div>
+                </div>
+          
+            }
+        </div>
+    </section> 
+<!-- Featured Section End -->
+<!-- Latest Product Section Begin -->
+<section class="latest-product spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="latest-product__text">
+                    <h4>Cheapest product</h4>
+                    <div class="latest-product__slider owl-carousel">
+                        @for (int i = 0; i < ViewBag.CheapProducts.Count; i += 3)
+                        {
+                            <div class="latest-product__slider__item">
+                                @for (int j = i; j < i + 3 && j < ViewBag.CheapProducts.Count; j++)
+                                {
+                                    var product = ViewBag.CheapProducts[j];
+                                    <a href="#" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="@($"/Uploads/products/{product.Image}")" alt="@product.Name" class="product-image">
+                                        </div>
+
+                                        <div class="latest-product__item__text">
+                                            <h6>@product.Name</h6>
+                                            <span>@String.Format("{0:C}", product.Price)</span>
+                                        </div>
+                                    </a>
+                                }
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-6 col-md-6">
+                <div class="latest-product__text">
+                    <h4>Hot Products</h4>
+                    <div class="latest-product__slider owl-carousel">
+                        @for (int i = 0; i < ViewBag.HotProducts.Count; i += 3)
+                        {
+                            <div class="latest-product__slider__item">
+                                @for (int j = i; j < i + 3 && j < ViewBag.HotProducts.Count; j++)
+                                {
+                                    var product = ViewBag.HotProducts[j];
+                                    <a href="#" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="@($"/Uploads/products/{product.Image}")" alt="@product.Name" class="product-image">
+                                        </div>
+
+                                        <div class="latest-product__item__text">
+                                            <h6>@product.Name</h6>
+                                            <span>@String.Format("{0:C}", product.Price)</span>
+                                        </div>
+                                    </a>
+                                }
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
+<!-- Latest Product Section End -->
+<!-- Blog Section Begin -->
+<section class="from-blog spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title from-blog__title">
+                    <h2>From The Blog</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="~/Ogani/img/blog/blog-1.jpg" alt="">
+                    </div>
+                    <div class="blog__item__text">
+                        <ul>
+                            <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                            
+                        </ul>
+                        <h5><a href="#">Cooking tips make cooking simple</a></h5>
+                        <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="~/Ogani/img/blog/blog-2.jpg" alt="">
+                    </div>
+                    <div class="blog__item__text">
+                        <ul>
+                            <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                        </ul>
+                        <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
+                        <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="blog__item">
+                    <div class="blog__item__pic">
+                        <img src="~/Ogani/img/blog/blog-3.jpg" alt="">
+                    </div>
+                    <div class="blog__item__text">
+                        <ul>
+                            <li><i class="fa fa-calendar-o"></i> May 4,2019</li>
+                            
+                        </ul>
+                        <h5><a href="#">Visit the clean farm in the US</a></h5>
+                        <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Section End -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script>
+    
+
+    function addToCart11(productId) {
+        $.ajax({
+            url: '/Shop/addToCart', // URL tới action xử lý addToCart
+            type: 'POST',
+            data: { productId: productId },
+            success: function (response) {
+                // Khi thành công, cập nhật giỏ hàng (ví dụ như hiển thị thông báo hoặc cập nhật số lượng giỏ hàng)
+                alert("Sản phẩm đã được thêm vào giỏ hàng !", response);
+                console.log(response)
+                updateCartCount(response.totalItemsCount); // Giả sử server trả về số lượng giỏ hàng mới
+            },
+            error: function () {
+                // Xử lý khi có lỗi xảy ra
+                alert("Có lỗi xảy ra khi thêm sản phẩm vào giỏ hàng.");
+            }
+        });
+    }
+
+    function updateCartCount(count) {
+        
+        // Cập nhật số lượng giỏ hàng trong phần tử #cart-count
+        if ($('#cart-count').length > 0) {
+            $('#cart-count').text(count);  // Cập nhật số lượng giỏ hàng với giá trị count
+        } else {
+            console.error('Không tìm thấy phần tử #cart-count để cập nhật!');
+        }
+    }
+    window.setTimeout(function () {
+        $('#successMessageId').fadeOut('slow');  // Sử dụng hiệu ứng fade out
+    }, 3000);
+
+    function addToWishlist(productId) {
+        console.log('chay zo wist list')
+        $.ajax({
+            url: '/Wistlist/AddToWishlist',
+            type: 'POST',
+            data: {
+                productId: productId
+            },
+            success: function(response) {
+                // Hiển thị thông báo hoặc cập nhật giao diện
+                alert("Sản phẩm đã được thêm vào Wishlist!");
+            },
+            error: function() {
+                alert("Đã xảy ra lỗi khi thêm sản phẩm vào Wishlist.");
+            }
+        });
+    }
+</script>
+
+
